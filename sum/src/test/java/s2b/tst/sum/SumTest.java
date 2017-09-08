@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import s2btstsum.Sum;
+
 public class SumTest {
 	
 	@Test(expected=IllegalArgumentException.class)

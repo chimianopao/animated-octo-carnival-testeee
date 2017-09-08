@@ -1,4 +1,4 @@
-package s2b.tst.sum;
+package s2btstsum;
 
 public class Sum {
 
