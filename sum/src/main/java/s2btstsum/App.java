@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * Hello world!
+ * soma
  *
  */
 public class App 
@@ -18,7 +18,7 @@ public class App
         int ab = s.nextInt();
         System.out.println("olar, digita outro");
         int ac = s.nextInt();
-        //s.close();
+        s.close();
         double r = Sum.sum(ab, ac);
         
         System.out.println("soma = "+r);
