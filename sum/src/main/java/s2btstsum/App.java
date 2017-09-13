@@ -15,9 +15,9 @@ public class App
     	Scanner s = new Scanner(System.in);
     	
     	System.out.println("olar, digita um numero");
-        int ab = s.nextInt();
+        double ab = s.nextDouble();
         System.out.println("olar, digita outro");
-        int ac = s.nextInt();
+        double ac = s.nextDouble();
         s.close();
         double r = Sum.sum(ab, ac);
         
